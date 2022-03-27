@@ -4,7 +4,7 @@
 
 Submitted by: **Samuel Wu**
 
-Time spent: **6** hours spent in total
+Time spent: **7** hours spent in total
 
 Link to project: https://glitch.com/edit/#!/good-upbeat-catboat
 
