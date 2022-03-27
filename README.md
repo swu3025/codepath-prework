@@ -40,9 +40,13 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
+
 ![x] http://g.recordit.co/iC1aZ1hR9W.gif
+
 ![x] http://g.recordit.co/zwrVAy7k15.gif
-![x]http://g.recordit.co/KhD91FjL85.gif
+
+![x] http://g.recordit.co/KhD91FjL85.gif
+
 ![x] http://g.recordit.co/pasbG8DQBu.gif
 
 ## Reflection Questions
@@ -50,12 +54,16 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-One challenge I encountered in creating this submission was during the creation of the different pattern optional feature. At first, I thought it was a pretty easy and straightforward feature where I only needed to create a function that generates a random generator for my pattern array. However, I noticed a problem after running my program. Everytime I started the game, the pattern would be the same. I wasn't sure what the problem was at first and my function look right to me. That was when I realized about a problem I had encountered before where the random numbers were always the same everytime the program was executed. I researched on this particular problem and found out about seeding, however, it turned out seeding was not possible with javascript and the solutions provided were very complicated. After continually analyzing my code, I realized the random generator actually did in fact generate new numbers each time. What I failed to do was empty out my pattern array after every game. My previous program added onto the pattern array (length of 10 became length of 20 and so on). I solved this problem by initializing the pattern array to be an empty array in the startGame function. (my startGame does not reflect this change since I altered my program to include the additional features).
+
+    One challenge I encountered in creating this submission was during the creation of the different pattern optional feature. At first, I thought it was a pretty easy and straightforward feature where I only needed to create a function that generates a random generator for my pattern array. However, I noticed a problem after running my program. Everytime I started the game, the pattern would be the same. I wasn't sure what the problem was at first and my function look right to me. That was when I realized about a problem I had encountered before where the random numbers were always the same everytime the program was executed. I researched on this particular problem and found out about seeding, however, it turned out seeding was not possible with javascript and the solutions provided were very complicated. After continually analyzing my code, I realized the random generator actually did in fact generate new numbers each time. What I failed to do was empty out my pattern array after every game. My previous program added onto the pattern array (length of 10 became length of 20 and so on). I solved this problem by initializing the pattern array to be an empty array in the startGame function. (my startGame does not reflect this change since I altered my program to include the additional features).
+
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-One question I have about web development are the libraries and frameworks use in it. I realized after completing my submission that there are a lot of things I need to know about HTML, CSS, and Javascript. However, I learned that there are multiple libraries and frameworks that are used in web development, such as React, Node.js, and jQuery. The question I have is do I need to learn them all? I've looked into some of these frameworks and libraries and they seem like a whole new language and it made me realize there is a whole lot of things to learn for web development.
+
+    One question I have about web development are the libraries and frameworks use in it. I realized after completing my submission that there are a lot of things I need to know about HTML, CSS, and Javascript. However, I learned that there are multiple libraries and frameworks that are used in web development, such as React, Node.js, and jQuery. The question I have is do I need to learn them all? I've looked into some of these frameworks and libraries and they seem like a whole new language and it made me realize there is a whole lot of things to learn for web development.
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-If I had a few more hours to work on this project, I would spend them finishing the optional features and including additional features that I think of. I skimmed the rest of the optional features provided and I realized that it does get harder and harder to implement. I believe with those remaining features, if I were to continue working on the project, I would first need to do some research. For example, for the game button appearance change, I would need to look into the image component of html and how to implement it. I would also need to learn how to replace the button with the image. My first thought was to move the image over the button, but it requires some alteration of the CSS file. I also believe that I can refactor some features to make them even better just how I did to the new pattern button.
+
+    If I had a few more hours to work on this project, I would spend them finishing the optional features and including additional features that I think of. I skimmed the rest of the optional features provided and I realized that it does get harder and harder to implement. I believe with those remaining features, if I were to continue working on the project, I would first need to do some research. For example, for the game button appearance change, I would need to look into the image component of html and how to implement it. I would also need to learn how to replace the button with the image. My first thought was to move the image over the button, but it requires some alteration of the CSS file. I also believe that I can refactor some features to make them even better just how I did to the new pattern button.
 
 
 
