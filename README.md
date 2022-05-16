@@ -67,9 +67,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 
 
-<## Interview Recording URL Link
+## Interview Recording URL Link
 
-[My 5-minute Interview Recording](https://drive.google.com/file/d/1Y52tHe9txDsc-XhnPgmIuNMB-Su6lNUi/view?usp=sharing)>
+<[My 5-minute Interview Recording](https://drive.google.com/file/d/1Y52tHe9txDsc-XhnPgmIuNMB-Su6lNUi/view?usp=sharing)>
 
 
 ## License
